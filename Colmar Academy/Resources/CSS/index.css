@@ -1,0 +1,482 @@
+/*
+---------------------------------
+code below is for dektop screens
+---------------------------------
+*/
+/*code below is to hide code for mobile screens*/
+header #header-mobile,
+body #body-mobile,
+footer #footer-mobile {
+  display: none;
+}
+html {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+/*code below is for header*/
+#header-desktop {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E0E0E0;
+}
+#Left-Header-desktop {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+#header-icon-desktop {
+
+}
+#Colmar-desktop {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+#Academy-desktop {
+  color: darkgray;
+  font-size: 30px;
+}
+#Right-Header-desktop {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+  margin-right: 24px;
+}
+#Right-Header-words-desktop {
+  margin-right: 20px;
+}
+/*code below is for first main image and captions*/
+#first-main-image-desktop {
+  display: flex;
+  flex-direction: row;
+  background-color: #B5B5B5;
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+}
+#first-main-image-image-desktop {
+  width: 90%;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+#first-main-image-captions-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#Learn-Something-New-Everday-desktop {
+  font-weight: 800;
+  font-size: 42px;
+  margin-bottom: 32px;
+  margin-right: 16px;
+  margin-top: 32px;
+  color: #383838;
+}
+#Lorem-Ipsum-Dolor-Sir-Amet-Consectetur-Adipiscing-Elit-desktop {
+  color: #383838;
+  font-size: 32px;
+  margin-right: 16px;
+  font-weight: 500;
+}
+#Start-Here-desktop {
+  color: white;
+  font-weight: 400;
+  background-color: #3D4141;
+  font-size: 1.5rem;
+  padding: 5% 34%;
+  margin-top: 30px;
+}
+/*code below is for second main image, three mini side images and captions*/
+#second-main-image-desktop {
+  display: flex;
+  flex-direction: row;
+  background-color: #F7F7F7;
+}
+#second-main-image-left-desktop {
+  border-right: 1px solid #E0E0E0;
+  width: 60%;
+}
+#second-main-image-left-image-desktop {
+  width: 88%;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+#second-main-image-left-caption-one-desktop {
+  font-weight: 800;
+  margin-left: 24px;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 24px;
+  color: #383838;
+}
+#second-main-image-left-caption-two-desktop {
+  color: #8E8E8E;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 1rem;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+#second-main-image-left-caption-three-desktop {
+  color: #8E8E8E;
+  text-align: left;
+  font-size: 1rem;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+#second-main-image-right-desktop {
+  display: flex;
+  flex-direction: column;
+  width: 40%
+}
+#second-main-image-right-part-one-desktop,
+#second-main-image-right-part-two-desktop,
+#second-main-image-right-part-three-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  width: 30%;
+}
+#main-image-image-desktop {
+  margin: 15px;
+  width: 10rem;
+}
+#caption-one-desktop {
+  margin-left: 16px
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: left;
+  color: #7F7F7F;
+  width: 16rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#caption-two-desktop {
+  color: #B5B5B5;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#Read-More-desktop {
+  color: #188C9E;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+#second-main-image-right-part-one-captions-desktop,
+#second-main-image-right-part-two-captions-desktop,
+#second-main-image-right-part-three-captions-desktop {
+  margin-top: 15px;
+  background-color: #E0E0E0;
+  margin-left: 15px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 5;
+  justify-content: center;
+}
+/*code below is for six mini images and captions*/
+#six-mini-images-desktop {
+  background-color: #D1D1D1;
+  padding-bottom: 30px;
+}
+#Start-Learning-desktop {
+  color: #2E2C2C;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+}
+#first-set-desktop,
+#second-set-desktop {
+  display: flex;
+  justify-content: center;
+}
+#first-set-first-desktop,
+#first-set-second-desktop,
+#first-set-third-desktop,
+#second-set-first-desktop,
+#second-set-second-desktop,
+#second-set-third-desktop {
+  margin: 10px;
+}
+#set-image-desktop {
+  width: 17.7rem;
+}
+#set-first-caption-desktop {
+  color: #383838;
+  font-weight: 600;
+  background-color: white;
+  margin: 0px;
+  padding: 24px;
+  padding-bottom: 10px;
+  height: 3px;
+  width: 15rem;
+}
+#set-second-caption-desktop {
+  color: #8E8E8E;
+  background-color: white;
+  margin: 0px;
+  padding: 24px;
+  height: 53px;
+  width: 15rem;
+}
+/*code below is for thesis, two mini side images and captions*/
+#Thesis-Exhibit-desktop {
+  display: flex;
+  flex-direction: row;
+  background-color: #F7F7F7;
+}
+#Thesis-Exhibit-left-desktop {
+  width: 60%;
+}
+#Thesis-Exhibit-video-desktop {
+  width: 88%;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+#Thesis-Exhibit-right-desktop {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 40%;
+  top: 14px;
+}
+#Thesis-Exhibit-image-right-part-one-desktop,
+#Thesis-Exhibit-image-right-part-two-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0px;
+  width: 30%;
+}
+#Thesis-Exhibit-main-image-image-desktop {
+  margin: 15px;
+  width: 10rem;
+}
+#Thesis-Exhibit-caption-one-desktop {
+  margin-left: 16px
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: left;
+  color: #7F7F7F;
+  width: 16rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#Thesis-Exhibit-caption-two-desktop {
+  color: #B5B5B5;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#Thesis-Exhibit-image-right-part-one-captions-desktop,
+#Thesis-Exhibit-image-right-part-two-captions-desktop {
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: #E0E0E0;
+  margin-left: 15px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 5;
+  justify-content: center;
+}
+/*code below is for "Reimagine Urban" text*/
+#Reimagine-Urban {
+  margin-left: 24px;
+}
+#Reimagine-Urban-text {
+  color: #383838;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#Reimagine-Urban-Caption {
+  color: gray;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+/*code below is for footer*/
+#footer-desktop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-top: 1px solid darkgray;
+  color: gray;
+}
+#footer-desktop-right {
+  margin: 16px 24px;
+}
+#footer-desktop-left {
+  margin: 16px 24px;
+  color: gray;
+}
+/*
+-------------------------------------------
+code below is for mobile and tablet screens
+-------------------------------------------
+*/
+@media only screen and (max-width: 1326px){
+  /*code below is to hide code for desktop and tablet screens*/
+  header #header-mobile,
+  body #body-mobile,
+  footer #footer-mobile {
+    display: inline;
+  }
+  header #header-desktop,
+  body #body-desktop,
+  footer #footer-desktop {
+    display: none;
+  }
+  html {
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  /*code below is for header*/
+  #header-mobile {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    border-bottom: 1px solid lightgray;
+  }
+  #header-icon {
+    height: 50px;
+    width: 50px;
+  }
+  /*code below is for first main image and captions*/
+  #first-main-image {
+    background-color: #DBDBDB;
+    padding-bottom: 32px;
+  }
+  #first-main-image-image {
+    image-resolution: from-image;
+    width: 100%;
+  }
+  #Learn-Something-New-Everday {
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 32px;
+    color: #383838;
+  }
+  #Lorem-Ipsum-Dolor-Sir-Amet-Consectetur-Adipiscing-Elit {
+    color: #383838;
+    text-align: center;
+    font-size: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: 500;
+  }
+  #Start-Here {
+    color: white;
+    text-align: center;
+    background-color: #757575;
+    font-weight: bold;
+    padding: 5% 20%;
+    margin: 16px 24px 16px 32px;
+  }
+  /*code below is for second,, third, and fourth main images and captions*/
+  #second-main-image {
+
+  }
+  #third-main-image {
+
+  }
+  #fourth-main-image {
+
+  }
+  #main-image-image {
+    width: 100%;
+    image-resolution: from-image;
+  }
+  #caption-one {
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 29px;
+    color: #7F7F7F;
+  }
+  #caption-two {
+    color: #B5B5B5;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 30px;
+  }
+  #Read-More {
+    color: #188C9E;
+    margin-left: 30px;
+    margin-top: 16px;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  /*code below is for "Start Learning" list*/
+  #Start-Learning-List {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid #BCBDBD;
+  }
+  #Start-Learning {
+    color: #3B3E3F;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 3rem;
+  }
+  #Start-Learning-List-Items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #3B3E3F;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #B4B5B5;
+    margin-bottom: 8px !important;
+    margin-top: 0px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  /*code below is for thesis*/
+  #Thesis {
+
+  }
+  #Thesis-Exhibits {
+    color: #3B3E3F;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+  }
+  #Thesis-Video {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  /*code below is for footer*/
+  #footer-mobile {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #A3A3A3;
+    text-align: center;
+  }
+}
